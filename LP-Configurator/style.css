@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+#main-container {
+    margin: auto;
+    padding: 0px;
+    background-color: white;
+    width: fit-content;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.grid-container {
+}
+
+.line-container {
+    display: flex;
+    border: 1px black dashed;
+}
+
+.grid-item {
+	border: 1px solid red;
+	padding: 10px;
+    margin: 20px;
+    width: 200px;
+    height: 70px;
+    box-sizing: border-box;
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: flex;
+    flex-direction: column;
+    display:block
+}
+
+.input {
+    width: 100px;;
+}
+
+#add-grid-form {
+    border: 5px black dotted;
+    padding: 25px;
+}
+
+.developer-console {
+    bottom: 0px;
+    position: sticky;
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    margin: 50px auto 50px auto;
+    width: 500px;
+    height: 300px;
+    border: 5px black dotted;
+    border-radius: 35px;
+}
+
+.developer-console > div {
+    padding: 10px;
+}
+
+.active {
+    border: 5px blue solid !important;
+}
+
+.inside-div {
+    pointer-events: none;
+}
+
+.input {
+    width: 100%;
+}
+
+.empty {
+    border: 2px black dotted;
+}
+
+.circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border: 2px black solid;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.rectangle {
+    border: 2px black solid;
+}
+
+.dc-el-shape > input, label{
+    margin-left: 5px;
+}
